@@ -34,7 +34,7 @@ function validate(){
       return false;
     }
     if((data[0])>2002){
-      text = "Please Enter valid date";
+      text = "Sorry! You should be above 18 years to register..";
       error_message.innerHTML = text;
       return false;
     }
